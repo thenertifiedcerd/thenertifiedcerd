@@ -1,0 +1,82 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-base-color: #1d1d1d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Body {
+  max-width: 100vw;
+  max-height: 14vh;
+}
+
+.img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.img-head {
+  background-image: url('C:/Users/AKINWANDE/Documents/pora/public/x_is_world_townsquare.png');
+  width: 100vw;
+  height: 5%;
+  min-height: 15%;
+  min-width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  background-position: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.img-text {
+  color: #fff;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.neo {
+  position: relative;
+  animation: move 1.5s linear infinite reverse;
+  text-decoration: none;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #dda0dd 10%, #ffff00 20%, #ffa500 30%, #fd7e14 40%, #6f43c1 60%, #0d6efd 80%, #a0c7dd 90%);
+  background-size: 300%;
+}
+
+.neo-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes move {
+  0% {
+    background-position: left;
+  }
+
+  50% {
+    background-position: center;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+.nav-toggle:onclick .nav-toggle:active .nav-toggle:hover {
+  border: none;
+}
