@@ -4,14 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './index.css';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import row from 'react-bootstrap/Row';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 function About() {
    return (
       <>
-      <div className="About mb-1">
+      <div className="About">
       <div className="">
         <h2>About Us</h2>
         <div className="">
@@ -20,38 +22,46 @@ function About() {
         <br /><hr />
         <div>
          <h3>Check out our testimonials!</h3>
-         <CardGroup>
-         <Card border="primary" className="bg-dark text-light" style={{ width: '18rem' }}>
+         
+          <Container fluid>
+         <Row>
+          <Col>
+         <Card className="bg-dark text-light col-md-3" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Jude B.</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          HostIt has become an integral part of my daily routine. It helps me to plan and schedule media content better than other other hosting services (and it is free!) I don't think there is a better alternative to HostIt.
         </Card.Text>
       </Card.Body>
     </Card>
-    <Card border="primary" className="bg-dark text-light" style={{ width: '18rem' }}>
+    </Col>
+    <Col>
+    <Card className="bg-dark text-light col-md-3" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Mary O.</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          I have no idea where my career would be without HostIt. It has cut my workload and working time in half!
         </Card.Text>
       </Card.Body>
     </Card>
-    <Card border="primary" className="bg-dark text-light" style={{ width: '18rem' }}>
+    </Col>
+    <Col>
+    <Card className="bg-dark text-light col-md-3" style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Paul A.</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          There is no reason why HostIt shouldn't be voted Most Useful Software ever! It has continued to delliver over the years. Thank you to the developers of this great app!
         </Card.Text>
       </Card.Body>
     </Card>
-    </CardGroup> 
+    </Col>
+    </Row>
+    </Container>
+    
+     
         </div>
       </div>
       </div>
