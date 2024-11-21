@@ -56,7 +56,7 @@ function About() {
       <Card.Body>
         <Card.Title>Paul A.</Card.Title>
         <Card.Text>
-          There is no reason why HostIt shouldn't be voted Most Useful Software ever! It has continued to delliver over the years. Thank you to the developers of this great app!
+          There is no reason why HostIt shouldn't be voted Most Useful Software ever! It has continued to deliver over the years. Thank you to the developers of this great app!
         </Card.Text>
       </Card.Body>
     </Card>
