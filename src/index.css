@@ -22,6 +22,10 @@ Card {
   margin-top: 6vh;
 }
 
+.about-page {
+  text-align: center;
+}
+
 .Body {
   max-width: 100vw;
   max-height: 14vh;
