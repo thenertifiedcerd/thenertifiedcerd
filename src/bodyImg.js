@@ -5,6 +5,8 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BiArrowToRight} from 'react-icons/bi';
+
 
 function Body() {
    return (
@@ -14,7 +16,7 @@ function Body() {
          <div class="img-head">
          <div class="img-text">
             <h2>Welcome to the new age, <p><a href="" target="_blank"  class="neo">Neo™</a> is here.</p></h2>
-            <h6><small><a href="#" target="_blank" class="neo-link">Get started</a></small></h6>
+            <h6><small><a href="#" target="_blank" class="neo-link">Get started <i className="bi bi-ArrowToRight"></i></a></small></h6>
          </div>
         </div>
        </div>

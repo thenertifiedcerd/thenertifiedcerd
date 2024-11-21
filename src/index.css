@@ -27,6 +27,10 @@ Card {
   max-height: 14vh;
 }
 
+.div-card {
+  text-align: center;
+}
+
 .img {
   max-width: 100%;
   width: 100%;
