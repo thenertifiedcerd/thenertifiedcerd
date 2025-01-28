@@ -3,11 +3,7 @@
 - 🌱 I’m currently learning...anything I can!
 - 💞️ I’m looking to collaborate on new projects!
 - 📫 How to reach me...
-      Check out my social media handles
-      - Facebook - Benjamin Femi-Akinwande
-      - Instagram - @thenertifiedcerd
-      - Reddit - u/thenertifiedcerd
-      And my mail!
+      Check out my mail!
       - Gmail - benzenefemiakinwande@gmail.com
 
 <!---
